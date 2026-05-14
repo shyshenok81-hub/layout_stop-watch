@@ -63,10 +63,10 @@ body {
 
   // Модифікатор прискорення (speed-up)
   &--speed-up {
-    .stopwatch__hand--minute {
+    &__hand--minute {
       animation-duration: 600s; // 10 хвилин = 600 секунд
     }
-    .stopwatch__hand--second {
+    &__hand--second {
       animation-duration: 10s; // 10 секунд
     }
   }
